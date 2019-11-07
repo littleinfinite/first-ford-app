@@ -1,0 +1,11 @@
+ngOnInit() {
+    this.developers = [{id: 1, name: 'Swathi', languages: ['C', 'C++', 'Javascript']},
+                      {id: 2, name: 'Ranjani', languages: ['Java', 'C++', 'R']},
+                      {id: 3, name: 'Priyanka', languages: ['C', 'Kotlin', 'Python']},
+                      {id: 4, name: 'Kesav', languages: ['Ruby', 'Kotlin']},
+                      {id: 5, name: 'Govind', languages: ['Scala', 'C#', 'Php']},
+                      {id: 6, name: 'Ram', languages: ['Typescript', 'Shell', 'Python']},
+                      {id: 7, name: 'Rukmini', languages: ['Java', 'Javascript', 'Groovy']}];
+    this.cols = [{field: 'id', header: 'ID'},
+                {field: 'name', header: 'Name'},
+                {field: 'languages', header: 'Languages Known'}];
